@@ -1,0 +1,13 @@
+
+
+body {
+    background: linear-gradient(-225deg, rgb(8, 8, 8) 0%, rgba(23, 15, 27, 0.712) 100%) !important;
+}
+
+.services {
+    background: unset !important;
+}
+
+.services-page-title {
+    font-size: 35px !important;
+}

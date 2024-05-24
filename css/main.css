@@ -1,0 +1,92 @@
+@import url(./fonts.css);
+
+/* CUSTOM PROPS */
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --bg-color: #1C1C1E;
+    --btn-bg__color: #0040DD;
+    --Manrope: "Manrope";
+}
+
+/* //CUSTOM PROPS */
+
+
+/* GLOBAL-STYLES */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.all-btn {
+    padding: 10px 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    border-radius: 50px;
+    background-color: var(--btn-bg__color);
+    color: var(--white);
+    font-family: var(--Manrope);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card-btn {
+    padding: 10px 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+    border-radius: 50px;
+    border: 1px solid var(--white);
+    color: var(--white);
+    font-family: var(--Manrope);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.site-title {
+    color: var(--white);
+    font-family: var(--Manrope);
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.card-title {
+    color: var(--white);
+    font-family: var(--Manrope);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+/* //GLOBAL-STYLES */
+
+
+/* CONTAINER */
+.container {
+    max-width: 1260px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+}
+
+/* //CONTAINER */

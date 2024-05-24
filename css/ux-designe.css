@@ -1,0 +1,176 @@
+/* CUSTOM PROPS */
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --bg-color: #1C1C1E;
+    --btn-bg__color: #0040DD;
+    --Manrope: "Manrope";
+}
+
+/* //CUSTOM PROPS */
+
+
+/* GLOBAL-STYLE */
+body {
+    background: linear-gradient(-225deg, rgb(8, 8, 8) 0%, rgba(36, 5, 52, 0.873) 100%) !important;
+    padding-bottom: 235px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    height: 100%;
+    
+}
+
+
+
+/* GLOBAL-STYLE */
+
+/* MAIN-STYYLE */
+.ux-main {
+    width: 100%;
+}
+
+.ux-flex {
+    padding-top: 50px;
+    display: flex;
+    column-gap: 60px;
+    border-top: 1px solid #ffffff;
+    position: relative;
+}
+
+.ux-line {
+    width: 1px;
+    height: 100%;
+    background-color: var(--white);
+    position: absolute;
+    top: 0;
+    right: 499px;
+}
+
+.site-header {
+    position: relative;
+}
+
+.ux-line-header {
+    width: 1px;
+    height: 100%;
+    background-color: var(--white);
+    position: absolute;
+    top: 0;
+    right: 820px;
+}
+
+.ux-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: flex-start;
+}
+
+.form-child {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: flex-start;
+}
+
+.label-desc {
+    color: var(--white);
+    font-family: var(--Manrope);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+.input-desc {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    border-radius: 25px;
+    border: 1px solid var(--white);
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(87px);
+    color: var(--white);
+    font-family: var(--Manrope);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.select {
+    padding-right: 25px;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(87px);
+    color: var(--white);
+    font-family: var(--Manrope);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.form-item:nth-child(1) .input-desc {
+    width: 393px;
+}
+
+.form-item:nth-child(2) .input-desc {
+    width: 288px;
+}
+
+.form-child:nth-child(2) .input-desc {
+    width: 338px;
+}
+
+.form-child:nth-child(3) .input-desc {
+    width: 393px !important;
+}
+
+.form-child:nth-child(3) .form-item:nth-child(1) .input-desc {
+    width: 287px !important;
+}
+
+.form-textarea {
+    width: 711px;
+    height: 168px;
+    border-radius: 25px;
+    border: 1px solid var(--white);
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(87px);
+}
+
+.ux-desc {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: flex-start;
+}
+
+.ux-page-title {
+    font-size: 35px !important;
+}
+
+.ux-desc__text {
+    max-width: 440px;
+    width: 100%;
+    color: var(--white);
+    font-family: var(--Manrope);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    opacity: .6;
+}
+
+.form-textarea {
+    text-align: center;
+    color: var(--white);
+    font-family: var(--Manrope);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* //MAIN-STYLE */

@@ -1,0 +1,44 @@
+
+
+.nav {
+    display: flex;
+    flex-direction: column;    
+}
+
+.about-page-title {
+    margin-top: 65px;   
+    font-size: 35px !important;
+}
+
+.about-mark-text {
+    color: #0040DD !important;
+}
+
+/* GaALLERY-SECTION */
+.about-gallery {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.gallery-title {
+    margin-top: unset !important;
+}
+
+.gallery-box {
+    width: 1450px;
+    display: flex;
+    column-gap: 40px;
+    flex-shrink: 0;
+    scroll-snap-type: mandatory;
+    margin: auto;
+    overflow-x: auto;
+    padding-bottom: 30px;
+}
+.gallery-image {
+    scroll-snap-align: center;
+}
+
+/* //GALLERY-SECTION */
+
+

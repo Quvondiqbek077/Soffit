@@ -1,0 +1,94 @@
+.clock {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #333;
+    border-radius: 50%;
+    position: relative;
+}
+
+.hour-hand, .minute-hand, .second-hand {
+    position: absolute;
+    background-color: #333;
+}
+
+.hour-hand {
+    width: 5px;
+    height: 40px;
+    top: 50px;
+    left: 97.5px;
+    transform-origin: 50% 100%;
+}
+
+.minute-hand {
+    width: 3px;
+    height: 50px;
+    top: 50px;
+    left: 98.5px;
+    transform-origin: 50% 100%;
+}
+
+.second-hand {
+    width: 2px;
+    height: 60px;
+    top: 50px;
+    left: 99px;
+    transform-origin: 50% 100%;
+    background-color: red;
+}
+
+.date {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.month, .day, .year {
+    font-size: 12px;
+    color: #333;
+}
+
+.calculator {
+    width: 200px;
+    margin: 100px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.screen {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+
+.square {
+    width: 200px; /* Kvadratning o'lchami */
+    height: 200px; /* Kvadratning balandligi */
+    background-image: url('rasmning_manbasi.jpg'); /* Rasmingiz manbasini o'zgartiring */
+    background-size: cover; /* Rasmi to'liq to'g'ri o'lchamga keltirish */
+    background-position: center; /* Rasmingizni kvadratning markaziga joylashtiring */
+}
